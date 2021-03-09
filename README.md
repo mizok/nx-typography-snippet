@@ -10,6 +10,10 @@ NEUX UI SCSS SYSTEM TYPOGRAPHY MIXIN GENERATOR.
 
 ![image](https://i.imgur.com/SvgX3BZ.png)
 
+安裝後就可以在已安裝的插件中找到nx-typography-snippet
+![image](https://i.imgur.com/xTK1760.png)
+
+
 # 使用說明
 
 這個snippet只會在scss檔案下做編輯時才會觸發, 只要key-in 指定的字級名稱,就會跳出對應的mixin include 指令 
