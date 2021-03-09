@@ -15,7 +15,7 @@ function getSnippetsFromSnippetNames(snippetNames) {
     snippets[o] = {
       'prefix': o.toString(),
       'body': [
-        `@include ${translateSnippetsNamesIntoMixinInclude(o)}`
+        `@include ${translateSnippetsNamesIntoMixinInclude(o)}();`
       ],
       'description': o.toString()
     }
