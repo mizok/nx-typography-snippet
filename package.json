@@ -1,0 +1,23 @@
+{
+    "name": "nx-typography",
+    "displayName": "nx-typography",
+    "description": "nx-typography",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "scripts": {
+      "build":"node main"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "scss",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
