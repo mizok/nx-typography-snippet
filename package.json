@@ -3,6 +3,7 @@
   "displayName": "nx-typography",
   "publisher": "mizok",
   "description": "nx-typography",
+  "repository": "https://github.com/mizok/nx-typography",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.54.0"
