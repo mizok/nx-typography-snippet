@@ -1,9 +1,9 @@
 {
-  "name": "nx-typography",
-  "displayName": "nx-typography",
+  "name": "nx-typography-snippet",
+  "displayName": "nx-typography-snippet",
   "publisher": "mizok",
   "description": "nx-typography",
-  "repository": "https://github.com/mizok/nx-typography",
+  "repository": "https://github.com/mizok/nx-typography-snippet",
   "version": "0.0.1",
   "icon": "images/icon.png",
   "engines": {
