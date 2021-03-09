@@ -1,4 +1,4 @@
-# nx-typography README
+# nx-typography-snippet README
 
 NEUX UI SCSS SYSTEM TYPOGRAPHY MIXIN GENERATOR.
 
