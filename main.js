@@ -2,8 +2,10 @@ let snippetNames = require('./key/all-snippet-names');
 let fs = require('fs');
 
 function translateSnippetsNamesIntoMixinInclude(snippetName) {
-  let regex = /\/| /g
-  let mixinInclude = snippetName.replace(regex, '-');
+  let regex1 = /\//g
+  let regex2 = / /g
+  let mixinInclude = snippetName.replace(regex1, '');
+  mixinInclude = mixinInclude.replace(regex2, '-')
   return mixinInclude;
 }
 
